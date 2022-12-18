@@ -12,3 +12,5 @@
 
 .vitest/
 tsconfig.tsbuildinfo
+
+.vite
