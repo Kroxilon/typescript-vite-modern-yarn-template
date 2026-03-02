@@ -28,7 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@types/node", "npm:18.11.17"],\
+            ["@types/node", "npm:18.19.130"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.9"],\
             ["@vitejs/plugin-react-swc", "virtual:24e7b5fcc67b5e1f44479a3d08d58aa6e877e292cd915af65a0249380822042ae99e93c32629c25bebfd3e6715fbb2ac5a61a3aa50c645e39dbe1e7909f89708#npm:3.0.1"],\
@@ -467,10 +467,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/node", [\
-        ["npm:18.11.17", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.17-897ad73ae4-1933afd068.zip/node_modules/@types/node/",\
+        ["npm:18.19.130", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.19.130-df6d3a4ff9-b703236358.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:18.11.17"]\
+            ["@types/node", "npm:18.19.130"],\
+            ["undici-types", "npm:5.26.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1692,7 +1693,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["please-edit-this-name", "workspace:."],\
-            ["@types/node", "npm:18.11.17"],\
+            ["@types/node", "npm:18.19.130"],\
             ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.9"],\
             ["@vitejs/plugin-react-swc", "virtual:24e7b5fcc67b5e1f44479a3d08d58aa6e877e292cd915af65a0249380822042ae99e93c32629c25bebfd3e6715fbb2ac5a61a3aa50c645e39dbe1e7909f89708#npm:3.0.1"],\
@@ -2205,7 +2206,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.11"],\
             ["@tsconfig/node14", "npm:1.0.3"],\
             ["@tsconfig/node16", "npm:1.0.3"],\
-            ["@types/node", "npm:18.11.17"],\
+            ["@types/node", "npm:18.19.130"],\
             ["@types/swc__core", null],\
             ["@types/swc__wasm", null],\
             ["@types/typescript", null],\
@@ -2298,6 +2299,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["undici-types", [\
+        ["npm:5.26.5", {\
+          "packageLocation": "./.yarn/cache/undici-types-npm-5.26.5-de4f7c7bb9-3192ef6f3f.zip/node_modules/undici-types/",\
+          "packageDependencies": [\
+            ["undici-types", "npm:5.26.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["unique-filename", [\
         ["npm:2.0.1", {\
           "packageLocation": "./.yarn/cache/unique-filename-npm-2.0.1-183c6c7c2b-807acf3381.zip/node_modules/unique-filename/",\
@@ -2349,7 +2359,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["vite", "virtual:24e7b5fcc67b5e1f44479a3d08d58aa6e877e292cd915af65a0249380822042ae99e93c32629c25bebfd3e6715fbb2ac5a61a3aa50c645e39dbe1e7909f89708#npm:4.0.1"],\
             ["@types/less", null],\
-            ["@types/node", "npm:18.11.17"],\
+            ["@types/node", "npm:18.19.130"],\
             ["@types/sass", null],\
             ["@types/stylus", null],\
             ["@types/sugarss", null],\
